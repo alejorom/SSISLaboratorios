@@ -1,0 +1,6 @@
+RutaFotografia
+E:\Cursos Compartidos\SSIS\Laboratorios\Fotografias\Imagenes\Paisaje1.jpg
+E:\Cursos Compartidos\SSIS\Laboratorios\Fotografias\Imagenes\Paisaje2.jpg
+E:\Cursos Compartidos\SSIS\Laboratorios\Fotografias\Imagenes\Paisaje3.jpg
+E:\Cursos Compartidos\SSIS\Laboratorios\Fotografias\Imagenes\Paisaje4.jpg
+E:\Cursos Compartidos\SSIS\Laboratorios\Fotografias\Imagenes\Paisaje5.jpg
