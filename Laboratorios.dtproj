@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">22LAP5CD1195RMS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2cCIY7lkJ060KILlTiU3LgAAAAACAAAAAAAQZgAAAAEAACAAAABE7mLbAdK1CDFsZjPmcNIlMYmIIrJJYpBDo7h7C9/nYAAAAAAOgAAAAAIAACAAAAALAtIYXidzOqTLiFhZC+JePMQwGqmJAlNTete39Jm8HJAAAAA0RlOEE7dq8Eb0Y7AqkYRoDxDyVtAg4zD9bodp9MatDDpoDYWz0eklF9eVXMobJ4VmBeY734tFHoSVvXy4Tg2qLglfFwL2BjTMkjMUid7BIby8wF5VG3UAuhXvtAwA1bvKUdrgY1TTQWg5z40jo6pu8f8jhOuVut6v6Blm+9UJZUIq4V00DmnChsS64Ou+6PRAAAAAJcfeHoNOtAvEPTsC2CVRru17TBO+O+CPoItmawHX0FPypTIR5VttouHZZxSxITSSUeWueQ+ak5Bmx9MKtlbP7A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKguahKtMD0uofVW5udr1yAAAAAACAAAAAAAQZgAAAAEAACAAAAC7drJEThoNm+ISIdufbFSr99AV04XOqZz/bP0iXnf8IAAAAAAOgAAAAAIAACAAAACqdlDOQwUsb+CNRjlq75sKwmDr7LzFTZzxmIoRMiQojJAAAABHGJcmVx7QshCkAIMFcamTMvRQfaCKBBA39qCb3peuGclesE2uLrztHaeXtXn3R7IBO9dmiRuyvEC9LIlVrZpF4LVuwKTFimrphg4N+ZQ3d0nWuOml0EqSRd2H16BOYahUgUkoJamUVtAj5Vaw4MjvNEJ+4gbmXGXaB1bdB2oWgCVoxCW5uDX3yARKXtHFF1FAAAAA8YVdDQZSqW8MPf4WoCNhzNxK3Ohyna6yW5JDjG0GJuEAcQ3VsaHmJvGOiQxdHEiq/T29b2olO0nhyXMHS9rf5Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -37,6 +37,7 @@
           <SSIS:Package SSIS:Name="ImportarExportarColumna.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="MuestreoFilaOPorcentual.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ReporteDimEmpleado.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ConsumirAPIRest.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -2551,6 +2552,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ConsumirAPIRest.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{E4BE3178-EA18-47F7-9D3A-310F033FE054}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">ConsumirAPIRest</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{14F860CD-2C06-4BA4-86C0-A46BD16CF565}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
